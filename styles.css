@@ -1,1 +1,82 @@
 /*  your css code here. If applicable */
+body {
+	background-color: #f5f5f5; /* Provided body color */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #011e29; /* Provided header color */
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 28px;
+}
+.content-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: white;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.latest-news-section {
+	width: 20%;
+}
+
+.latest-news-section ul {
+	padding-left: 20px;
+}
+
+.latest-news-section li {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.main-article-section {
+            width: 45%; /* Wider central column */
+            text-align: center;
+        }
+
+        .main-article-section p {
+            color: #555;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* 4. Style for the Pictorial News Section */
+        .pictorial-news-section {
+            width: 20%; /* Narrower column */
+            text-align: center;
+        }
+
+        .pictorial-news-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px; /* Spacing between stacked images */
+            display: block;
+        }
+
+        /* Heading styles */
+        h2, h3 {
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
